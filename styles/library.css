@@ -1,0 +1,47 @@
+.exhibit {
+    height: 50px;
+    width: 100%;
+}
+
+.species .type {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: rgb(0, 17, 255);
+}
+
+.exhibit .type {
+    font-size: 1.0em;
+    font-weight: 550;
+    text-decoration: underline;
+    color: #09f;
+}
+
+.exhibit .name {
+    color: rgb(148, 148, 148);
+    font-size: 0.9em;
+}
+
+.card-image .card-title {
+    height: 10px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.521);
+    line-height: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.card-content .card-title {
+    height: 10px;
+    width: 100%;
+    line-height: 10px;
+    color: rgb(165, 165, 165);
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.library h3 {
+    text-align: center;
+    color: #09f;
+    margin-bottom: 10px;
+}
