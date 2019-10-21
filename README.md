@@ -6,14 +6,12 @@ Class : T1.1907.M0
 
 
 My team members:
-Student1208479
 
+Student1208479  
 HOANG MINH TAM
 
-Student1215626
-
+Student1215626  
 NGUYEN QUOC BAO
 
-Student1208490
-
+Student1208490  
 VO HOANG TRUNG
