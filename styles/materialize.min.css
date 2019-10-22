@@ -2427,7 +2427,7 @@ svg:not(:root) {
    */
 
 button,
-input,
+n,
 optgroup,
 select,
 textarea {
@@ -2448,7 +2448,7 @@ textarea {
    */
 
 button,
-input {
+n {
     /* 1 */
     overflow: visible;
 }
@@ -2693,7 +2693,7 @@ html {
 }
 
 button,
-input,
+n,
 optgroup,
 select,
 textarea {
@@ -3480,8 +3480,8 @@ th {
 }
 
 .no-select,
-input[type=range],
-input[type=range]+.thumb {
+n[type=range],
+n[type=range]+.thumb {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -5584,7 +5584,7 @@ body.keyboard-focused .dropdown-content li:focus {
     background-color: #dadada;
 }
 
-.input-field.col .dropdown-content [type="checkbox"]+label {
+.n-field.col .dropdown-content [type="checkbox"]+label {
     top: 1px;
     left: 0;
     height: 18px;
@@ -5670,9 +5670,9 @@ body.keyboard-focused .dropdown-content li:focus {
     background-color: rgba(0, 150, 136, 0.7);
 }
 
-.waves-effect input[type="button"],
-.waves-effect input[type="reset"],
-.waves-effect input[type="submit"] {
+.waves-effect n[type="button"],
+.waves-effect n[type="reset"],
+.waves-effect n[type="submit"] {
     border: 0;
     font-style: normal;
     font-size: inherit;
@@ -5696,12 +5696,12 @@ body.keyboard-focused .dropdown-content li:focus {
     -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
 }
 
-.waves-input-wrapper {
+.waves-n-wrapper {
     border-radius: 0.2em;
     vertical-align: bottom;
 }
 
-.waves-input-wrapper .waves-button-input {
+.waves-n-wrapper .waves-button-n {
     position: relative;
     top: 0;
     left: 0;
@@ -5991,7 +5991,7 @@ body.keyboard-focused .dropdown-content li:focus {
     cursor: text;
 }
 
-.chips .input {
+.chips .n {
     background: none;
     border: 0;
     color: rgba(0, 0, 0, 0.6);
@@ -6005,7 +6005,7 @@ body.keyboard-focused .dropdown-content li:focus {
     width: 120px !important;
 }
 
-.chips .input:focus {
+.chips .n:focus {
     border: 0 !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
@@ -6088,13 +6088,13 @@ label {
 }
 
 
-/* Text Inputs + Textarea
+/* Text ns + Textarea
      ========================================================================== */
 
 
 /* Style Placeholders */
 
- ::-webkit-input-placeholder {
+ ::-webkit-n-placeholder {
     color: #d1d1d1;
 }
 
@@ -6102,11 +6102,11 @@ label {
     color: #d1d1d1;
 }
 
- :-ms-input-placeholder {
+ :-ms-n-placeholder {
     color: #d1d1d1;
 }
 
- ::-ms-input-placeholder {
+ ::-ms-n-placeholder {
     color: #d1d1d1;
 }
 
@@ -6115,20 +6115,20 @@ label {
 }
 
 
-/* Text inputs */
+/* Text ns */
 
-input:not([type]),
-input[type=text]:not(.browser-default),
-input[type=password]:not(.browser-default),
-input[type=email]:not(.browser-default),
-input[type=url]:not(.browser-default),
-input[type=time]:not(.browser-default),
-input[type=date]:not(.browser-default),
-input[type=datetime]:not(.browser-default),
-input[type=datetime-local]:not(.browser-default),
-input[type=tel]:not(.browser-default),
-input[type=number]:not(.browser-default),
-input[type=search]:not(.browser-default),
+n:not([type]),
+n[type=text]:not(.browser-default),
+n[type=password]:not(.browser-default),
+n[type=email]:not(.browser-default),
+n[type=url]:not(.browser-default),
+n[type=time]:not(.browser-default),
+n[type=date]:not(.browser-default),
+n[type=datetime]:not(.browser-default),
+n[type=datetime-local]:not(.browser-default),
+n[type=tel]:not(.browser-default),
+n[type=number]:not(.browser-default),
+n[type=search]:not(.browser-default),
 textarea.materialize-textarea {
     background-color: transparent;
     border: none;
@@ -6150,143 +6150,143 @@ textarea.materialize-textarea {
     transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
 }
 
-input:not([type]):disabled,
-input:not([type])[readonly="readonly"],
-input[type=text]:not(.browser-default):disabled,
-input[type=text]:not(.browser-default)[readonly="readonly"],
-input[type=password]:not(.browser-default):disabled,
-input[type=password]:not(.browser-default)[readonly="readonly"],
-input[type=email]:not(.browser-default):disabled,
-input[type=email]:not(.browser-default)[readonly="readonly"],
-input[type=url]:not(.browser-default):disabled,
-input[type=url]:not(.browser-default)[readonly="readonly"],
-input[type=time]:not(.browser-default):disabled,
-input[type=time]:not(.browser-default)[readonly="readonly"],
-input[type=date]:not(.browser-default):disabled,
-input[type=date]:not(.browser-default)[readonly="readonly"],
-input[type=datetime]:not(.browser-default):disabled,
-input[type=datetime]:not(.browser-default)[readonly="readonly"],
-input[type=datetime-local]:not(.browser-default):disabled,
-input[type=datetime-local]:not(.browser-default)[readonly="readonly"],
-input[type=tel]:not(.browser-default):disabled,
-input[type=tel]:not(.browser-default)[readonly="readonly"],
-input[type=number]:not(.browser-default):disabled,
-input[type=number]:not(.browser-default)[readonly="readonly"],
-input[type=search]:not(.browser-default):disabled,
-input[type=search]:not(.browser-default)[readonly="readonly"],
+n:not([type]):disabled,
+n:not([type])[readonly="readonly"],
+n[type=text]:not(.browser-default):disabled,
+n[type=text]:not(.browser-default)[readonly="readonly"],
+n[type=password]:not(.browser-default):disabled,
+n[type=password]:not(.browser-default)[readonly="readonly"],
+n[type=email]:not(.browser-default):disabled,
+n[type=email]:not(.browser-default)[readonly="readonly"],
+n[type=url]:not(.browser-default):disabled,
+n[type=url]:not(.browser-default)[readonly="readonly"],
+n[type=time]:not(.browser-default):disabled,
+n[type=time]:not(.browser-default)[readonly="readonly"],
+n[type=date]:not(.browser-default):disabled,
+n[type=date]:not(.browser-default)[readonly="readonly"],
+n[type=datetime]:not(.browser-default):disabled,
+n[type=datetime]:not(.browser-default)[readonly="readonly"],
+n[type=datetime-local]:not(.browser-default):disabled,
+n[type=datetime-local]:not(.browser-default)[readonly="readonly"],
+n[type=tel]:not(.browser-default):disabled,
+n[type=tel]:not(.browser-default)[readonly="readonly"],
+n[type=number]:not(.browser-default):disabled,
+n[type=number]:not(.browser-default)[readonly="readonly"],
+n[type=search]:not(.browser-default):disabled,
+n[type=search]:not(.browser-default)[readonly="readonly"],
 textarea.materialize-textarea:disabled,
 textarea.materialize-textarea[readonly="readonly"] {
     color: rgba(0, 0, 0, 0.42);
     border-bottom: 1px dotted rgba(0, 0, 0, 0.42);
 }
 
-input:not([type]):disabled+label,
-input:not([type])[readonly="readonly"]+label,
-input[type=text]:not(.browser-default):disabled+label,
-input[type=text]:not(.browser-default)[readonly="readonly"]+label,
-input[type=password]:not(.browser-default):disabled+label,
-input[type=password]:not(.browser-default)[readonly="readonly"]+label,
-input[type=email]:not(.browser-default):disabled+label,
-input[type=email]:not(.browser-default)[readonly="readonly"]+label,
-input[type=url]:not(.browser-default):disabled+label,
-input[type=url]:not(.browser-default)[readonly="readonly"]+label,
-input[type=time]:not(.browser-default):disabled+label,
-input[type=time]:not(.browser-default)[readonly="readonly"]+label,
-input[type=date]:not(.browser-default):disabled+label,
-input[type=date]:not(.browser-default)[readonly="readonly"]+label,
-input[type=datetime]:not(.browser-default):disabled+label,
-input[type=datetime]:not(.browser-default)[readonly="readonly"]+label,
-input[type=datetime-local]:not(.browser-default):disabled+label,
-input[type=datetime-local]:not(.browser-default)[readonly="readonly"]+label,
-input[type=tel]:not(.browser-default):disabled+label,
-input[type=tel]:not(.browser-default)[readonly="readonly"]+label,
-input[type=number]:not(.browser-default):disabled+label,
-input[type=number]:not(.browser-default)[readonly="readonly"]+label,
-input[type=search]:not(.browser-default):disabled+label,
-input[type=search]:not(.browser-default)[readonly="readonly"]+label,
+n:not([type]):disabled+label,
+n:not([type])[readonly="readonly"]+label,
+n[type=text]:not(.browser-default):disabled+label,
+n[type=text]:not(.browser-default)[readonly="readonly"]+label,
+n[type=password]:not(.browser-default):disabled+label,
+n[type=password]:not(.browser-default)[readonly="readonly"]+label,
+n[type=email]:not(.browser-default):disabled+label,
+n[type=email]:not(.browser-default)[readonly="readonly"]+label,
+n[type=url]:not(.browser-default):disabled+label,
+n[type=url]:not(.browser-default)[readonly="readonly"]+label,
+n[type=time]:not(.browser-default):disabled+label,
+n[type=time]:not(.browser-default)[readonly="readonly"]+label,
+n[type=date]:not(.browser-default):disabled+label,
+n[type=date]:not(.browser-default)[readonly="readonly"]+label,
+n[type=datetime]:not(.browser-default):disabled+label,
+n[type=datetime]:not(.browser-default)[readonly="readonly"]+label,
+n[type=datetime-local]:not(.browser-default):disabled+label,
+n[type=datetime-local]:not(.browser-default)[readonly="readonly"]+label,
+n[type=tel]:not(.browser-default):disabled+label,
+n[type=tel]:not(.browser-default)[readonly="readonly"]+label,
+n[type=number]:not(.browser-default):disabled+label,
+n[type=number]:not(.browser-default)[readonly="readonly"]+label,
+n[type=search]:not(.browser-default):disabled+label,
+n[type=search]:not(.browser-default)[readonly="readonly"]+label,
 textarea.materialize-textarea:disabled+label,
 textarea.materialize-textarea[readonly="readonly"]+label {
     color: rgba(0, 0, 0, 0.42);
 }
 
-input:not([type]):focus:not([readonly]),
-input[type=text]:not(.browser-default):focus:not([readonly]),
-input[type=password]:not(.browser-default):focus:not([readonly]),
-input[type=email]:not(.browser-default):focus:not([readonly]),
-input[type=url]:not(.browser-default):focus:not([readonly]),
-input[type=time]:not(.browser-default):focus:not([readonly]),
-input[type=date]:not(.browser-default):focus:not([readonly]),
-input[type=datetime]:not(.browser-default):focus:not([readonly]),
-input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
-input[type=tel]:not(.browser-default):focus:not([readonly]),
-input[type=number]:not(.browser-default):focus:not([readonly]),
-input[type=search]:not(.browser-default):focus:not([readonly]),
+n:not([type]):focus:not([readonly]),
+n[type=text]:not(.browser-default):focus:not([readonly]),
+n[type=password]:not(.browser-default):focus:not([readonly]),
+n[type=email]:not(.browser-default):focus:not([readonly]),
+n[type=url]:not(.browser-default):focus:not([readonly]),
+n[type=time]:not(.browser-default):focus:not([readonly]),
+n[type=date]:not(.browser-default):focus:not([readonly]),
+n[type=datetime]:not(.browser-default):focus:not([readonly]),
+n[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+n[type=tel]:not(.browser-default):focus:not([readonly]),
+n[type=number]:not(.browser-default):focus:not([readonly]),
+n[type=search]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
     border-bottom: 1px solid #26a69a;
     -webkit-box-shadow: 0 1px 0 0 #26a69a;
     box-shadow: 0 1px 0 0 #26a69a;
 }
 
-input:not([type]):focus:not([readonly])+label,
-input[type=text]:not(.browser-default):focus:not([readonly])+label,
-input[type=password]:not(.browser-default):focus:not([readonly])+label,
-input[type=email]:not(.browser-default):focus:not([readonly])+label,
-input[type=url]:not(.browser-default):focus:not([readonly])+label,
-input[type=time]:not(.browser-default):focus:not([readonly])+label,
-input[type=date]:not(.browser-default):focus:not([readonly])+label,
-input[type=datetime]:not(.browser-default):focus:not([readonly])+label,
-input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label,
-input[type=tel]:not(.browser-default):focus:not([readonly])+label,
-input[type=number]:not(.browser-default):focus:not([readonly])+label,
-input[type=search]:not(.browser-default):focus:not([readonly])+label,
+n:not([type]):focus:not([readonly])+label,
+n[type=text]:not(.browser-default):focus:not([readonly])+label,
+n[type=password]:not(.browser-default):focus:not([readonly])+label,
+n[type=email]:not(.browser-default):focus:not([readonly])+label,
+n[type=url]:not(.browser-default):focus:not([readonly])+label,
+n[type=time]:not(.browser-default):focus:not([readonly])+label,
+n[type=date]:not(.browser-default):focus:not([readonly])+label,
+n[type=datetime]:not(.browser-default):focus:not([readonly])+label,
+n[type=datetime-local]:not(.browser-default):focus:not([readonly])+label,
+n[type=tel]:not(.browser-default):focus:not([readonly])+label,
+n[type=number]:not(.browser-default):focus:not([readonly])+label,
+n[type=search]:not(.browser-default):focus:not([readonly])+label,
 textarea.materialize-textarea:focus:not([readonly])+label {
     color: #26a69a;
 }
 
-input:not([type]):focus.valid~label,
-input[type=text]:not(.browser-default):focus.valid~label,
-input[type=password]:not(.browser-default):focus.valid~label,
-input[type=email]:not(.browser-default):focus.valid~label,
-input[type=url]:not(.browser-default):focus.valid~label,
-input[type=time]:not(.browser-default):focus.valid~label,
-input[type=date]:not(.browser-default):focus.valid~label,
-input[type=datetime]:not(.browser-default):focus.valid~label,
-input[type=datetime-local]:not(.browser-default):focus.valid~label,
-input[type=tel]:not(.browser-default):focus.valid~label,
-input[type=number]:not(.browser-default):focus.valid~label,
-input[type=search]:not(.browser-default):focus.valid~label,
+n:not([type]):focus.valid~label,
+n[type=text]:not(.browser-default):focus.valid~label,
+n[type=password]:not(.browser-default):focus.valid~label,
+n[type=email]:not(.browser-default):focus.valid~label,
+n[type=url]:not(.browser-default):focus.valid~label,
+n[type=time]:not(.browser-default):focus.valid~label,
+n[type=date]:not(.browser-default):focus.valid~label,
+n[type=datetime]:not(.browser-default):focus.valid~label,
+n[type=datetime-local]:not(.browser-default):focus.valid~label,
+n[type=tel]:not(.browser-default):focus.valid~label,
+n[type=number]:not(.browser-default):focus.valid~label,
+n[type=search]:not(.browser-default):focus.valid~label,
 textarea.materialize-textarea:focus.valid~label {
     color: #4CAF50;
 }
 
-input:not([type]):focus.invalid~label,
-input[type=text]:not(.browser-default):focus.invalid~label,
-input[type=password]:not(.browser-default):focus.invalid~label,
-input[type=email]:not(.browser-default):focus.invalid~label,
-input[type=url]:not(.browser-default):focus.invalid~label,
-input[type=time]:not(.browser-default):focus.invalid~label,
-input[type=date]:not(.browser-default):focus.invalid~label,
-input[type=datetime]:not(.browser-default):focus.invalid~label,
-input[type=datetime-local]:not(.browser-default):focus.invalid~label,
-input[type=tel]:not(.browser-default):focus.invalid~label,
-input[type=number]:not(.browser-default):focus.invalid~label,
-input[type=search]:not(.browser-default):focus.invalid~label,
+n:not([type]):focus.invalid~label,
+n[type=text]:not(.browser-default):focus.invalid~label,
+n[type=password]:not(.browser-default):focus.invalid~label,
+n[type=email]:not(.browser-default):focus.invalid~label,
+n[type=url]:not(.browser-default):focus.invalid~label,
+n[type=time]:not(.browser-default):focus.invalid~label,
+n[type=date]:not(.browser-default):focus.invalid~label,
+n[type=datetime]:not(.browser-default):focus.invalid~label,
+n[type=datetime-local]:not(.browser-default):focus.invalid~label,
+n[type=tel]:not(.browser-default):focus.invalid~label,
+n[type=number]:not(.browser-default):focus.invalid~label,
+n[type=search]:not(.browser-default):focus.invalid~label,
 textarea.materialize-textarea:focus.invalid~label {
     color: #F44336;
 }
 
-input:not([type]).validate+label,
-input[type=text]:not(.browser-default).validate+label,
-input[type=password]:not(.browser-default).validate+label,
-input[type=email]:not(.browser-default).validate+label,
-input[type=url]:not(.browser-default).validate+label,
-input[type=time]:not(.browser-default).validate+label,
-input[type=date]:not(.browser-default).validate+label,
-input[type=datetime]:not(.browser-default).validate+label,
-input[type=datetime-local]:not(.browser-default).validate+label,
-input[type=tel]:not(.browser-default).validate+label,
-input[type=number]:not(.browser-default).validate+label,
-input[type=search]:not(.browser-default).validate+label,
+n:not([type]).validate+label,
+n[type=text]:not(.browser-default).validate+label,
+n[type=password]:not(.browser-default).validate+label,
+n[type=email]:not(.browser-default).validate+label,
+n[type=url]:not(.browser-default).validate+label,
+n[type=time]:not(.browser-default).validate+label,
+n[type=date]:not(.browser-default).validate+label,
+n[type=datetime]:not(.browser-default).validate+label,
+n[type=datetime-local]:not(.browser-default).validate+label,
+n[type=tel]:not(.browser-default).validate+label,
+n[type=number]:not(.browser-default).validate+label,
+n[type=search]:not(.browser-default).validate+label,
 textarea.materialize-textarea.validate+label {
     width: 100%;
 }
@@ -6294,119 +6294,119 @@ textarea.materialize-textarea.validate+label {
 
 /* Validation Sass Placeholders */
 
-input.valid:not([type]),
-input.valid:not([type]):focus,
-input.valid[type=text]:not(.browser-default),
-input.valid[type=text]:not(.browser-default):focus,
-input.valid[type=password]:not(.browser-default),
-input.valid[type=password]:not(.browser-default):focus,
-input.valid[type=email]:not(.browser-default),
-input.valid[type=email]:not(.browser-default):focus,
-input.valid[type=url]:not(.browser-default),
-input.valid[type=url]:not(.browser-default):focus,
-input.valid[type=time]:not(.browser-default),
-input.valid[type=time]:not(.browser-default):focus,
-input.valid[type=date]:not(.browser-default),
-input.valid[type=date]:not(.browser-default):focus,
-input.valid[type=datetime]:not(.browser-default),
-input.valid[type=datetime]:not(.browser-default):focus,
-input.valid[type=datetime-local]:not(.browser-default),
-input.valid[type=datetime-local]:not(.browser-default):focus,
-input.valid[type=tel]:not(.browser-default),
-input.valid[type=tel]:not(.browser-default):focus,
-input.valid[type=number]:not(.browser-default),
-input.valid[type=number]:not(.browser-default):focus,
-input.valid[type=search]:not(.browser-default),
-input.valid[type=search]:not(.browser-default):focus,
+n.valid:not([type]),
+n.valid:not([type]):focus,
+n.valid[type=text]:not(.browser-default),
+n.valid[type=text]:not(.browser-default):focus,
+n.valid[type=password]:not(.browser-default),
+n.valid[type=password]:not(.browser-default):focus,
+n.valid[type=email]:not(.browser-default),
+n.valid[type=email]:not(.browser-default):focus,
+n.valid[type=url]:not(.browser-default),
+n.valid[type=url]:not(.browser-default):focus,
+n.valid[type=time]:not(.browser-default),
+n.valid[type=time]:not(.browser-default):focus,
+n.valid[type=date]:not(.browser-default),
+n.valid[type=date]:not(.browser-default):focus,
+n.valid[type=datetime]:not(.browser-default),
+n.valid[type=datetime]:not(.browser-default):focus,
+n.valid[type=datetime-local]:not(.browser-default),
+n.valid[type=datetime-local]:not(.browser-default):focus,
+n.valid[type=tel]:not(.browser-default),
+n.valid[type=tel]:not(.browser-default):focus,
+n.valid[type=number]:not(.browser-default),
+n.valid[type=number]:not(.browser-default):focus,
+n.valid[type=search]:not(.browser-default),
+n.valid[type=search]:not(.browser-default):focus,
 textarea.materialize-textarea.valid,
 textarea.materialize-textarea.valid:focus,
-.select-wrapper.valid>input.select-dropdown {
+.select-wrapper.valid>n.select-dropdown {
     border-bottom: 1px solid #4CAF50;
     -webkit-box-shadow: 0 1px 0 0 #4CAF50;
     box-shadow: 0 1px 0 0 #4CAF50;
 }
 
-input.invalid:not([type]),
-input.invalid:not([type]):focus,
-input.invalid[type=text]:not(.browser-default),
-input.invalid[type=text]:not(.browser-default):focus,
-input.invalid[type=password]:not(.browser-default),
-input.invalid[type=password]:not(.browser-default):focus,
-input.invalid[type=email]:not(.browser-default),
-input.invalid[type=email]:not(.browser-default):focus,
-input.invalid[type=url]:not(.browser-default),
-input.invalid[type=url]:not(.browser-default):focus,
-input.invalid[type=time]:not(.browser-default),
-input.invalid[type=time]:not(.browser-default):focus,
-input.invalid[type=date]:not(.browser-default),
-input.invalid[type=date]:not(.browser-default):focus,
-input.invalid[type=datetime]:not(.browser-default),
-input.invalid[type=datetime]:not(.browser-default):focus,
-input.invalid[type=datetime-local]:not(.browser-default),
-input.invalid[type=datetime-local]:not(.browser-default):focus,
-input.invalid[type=tel]:not(.browser-default),
-input.invalid[type=tel]:not(.browser-default):focus,
-input.invalid[type=number]:not(.browser-default),
-input.invalid[type=number]:not(.browser-default):focus,
-input.invalid[type=search]:not(.browser-default),
-input.invalid[type=search]:not(.browser-default):focus,
+n.invalid:not([type]),
+n.invalid:not([type]):focus,
+n.invalid[type=text]:not(.browser-default),
+n.invalid[type=text]:not(.browser-default):focus,
+n.invalid[type=password]:not(.browser-default),
+n.invalid[type=password]:not(.browser-default):focus,
+n.invalid[type=email]:not(.browser-default),
+n.invalid[type=email]:not(.browser-default):focus,
+n.invalid[type=url]:not(.browser-default),
+n.invalid[type=url]:not(.browser-default):focus,
+n.invalid[type=time]:not(.browser-default),
+n.invalid[type=time]:not(.browser-default):focus,
+n.invalid[type=date]:not(.browser-default),
+n.invalid[type=date]:not(.browser-default):focus,
+n.invalid[type=datetime]:not(.browser-default),
+n.invalid[type=datetime]:not(.browser-default):focus,
+n.invalid[type=datetime-local]:not(.browser-default),
+n.invalid[type=datetime-local]:not(.browser-default):focus,
+n.invalid[type=tel]:not(.browser-default),
+n.invalid[type=tel]:not(.browser-default):focus,
+n.invalid[type=number]:not(.browser-default),
+n.invalid[type=number]:not(.browser-default):focus,
+n.invalid[type=search]:not(.browser-default),
+n.invalid[type=search]:not(.browser-default):focus,
 textarea.materialize-textarea.invalid,
 textarea.materialize-textarea.invalid:focus,
-.select-wrapper.invalid>input.select-dropdown,
-.select-wrapper.invalid>input.select-dropdown:focus {
+.select-wrapper.invalid>n.select-dropdown,
+.select-wrapper.invalid>n.select-dropdown:focus {
     border-bottom: 1px solid #F44336;
     -webkit-box-shadow: 0 1px 0 0 #F44336;
     box-shadow: 0 1px 0 0 #F44336;
 }
 
-input:not([type]).valid~.helper-text[data-success],
-input:not([type]):focus.valid~.helper-text[data-success],
-input:not([type]).invalid~.helper-text[data-error],
-input:not([type]):focus.invalid~.helper-text[data-error],
-input[type=text]:not(.browser-default).valid~.helper-text[data-success],
-input[type=text]:not(.browser-default):focus.valid~.helper-text[data-success],
-input[type=text]:not(.browser-default).invalid~.helper-text[data-error],
-input[type=text]:not(.browser-default):focus.invalid~.helper-text[data-error],
-input[type=password]:not(.browser-default).valid~.helper-text[data-success],
-input[type=password]:not(.browser-default):focus.valid~.helper-text[data-success],
-input[type=password]:not(.browser-default).invalid~.helper-text[data-error],
-input[type=password]:not(.browser-default):focus.invalid~.helper-text[data-error],
-input[type=email]:not(.browser-default).valid~.helper-text[data-success],
-input[type=email]:not(.browser-default):focus.valid~.helper-text[data-success],
-input[type=email]:not(.browser-default).invalid~.helper-text[data-error],
-input[type=email]:not(.browser-default):focus.invalid~.helper-text[data-error],
-input[type=url]:not(.browser-default).valid~.helper-text[data-success],
-input[type=url]:not(.browser-default):focus.valid~.helper-text[data-success],
-input[type=url]:not(.browser-default).invalid~.helper-text[data-error],
-input[type=url]:not(.browser-default):focus.invalid~.helper-text[data-error],
-input[type=time]:not(.browser-default).valid~.helper-text[data-success],
-input[type=time]:not(.browser-default):focus.valid~.helper-text[data-success],
-input[type=time]:not(.browser-default).invalid~.helper-text[data-error],
-input[type=time]:not(.browser-default):focus.invalid~.helper-text[data-error],
-input[type=date]:not(.browser-default).valid~.helper-text[data-success],
-input[type=date]:not(.browser-default):focus.valid~.helper-text[data-success],
-input[type=date]:not(.browser-default).invalid~.helper-text[data-error],
-input[type=date]:not(.browser-default):focus.invalid~.helper-text[data-error],
-input[type=datetime]:not(.browser-default).valid~.helper-text[data-success],
-input[type=datetime]:not(.browser-default):focus.valid~.helper-text[data-success],
-input[type=datetime]:not(.browser-default).invalid~.helper-text[data-error],
-input[type=datetime]:not(.browser-default):focus.invalid~.helper-text[data-error],
-input[type=datetime-local]:not(.browser-default).valid~.helper-text[data-success],
-input[type=datetime-local]:not(.browser-default):focus.valid~.helper-text[data-success],
-input[type=datetime-local]:not(.browser-default).invalid~.helper-text[data-error],
-input[type=datetime-local]:not(.browser-default):focus.invalid~.helper-text[data-error],
-input[type=tel]:not(.browser-default).valid~.helper-text[data-success],
-input[type=tel]:not(.browser-default):focus.valid~.helper-text[data-success],
-input[type=tel]:not(.browser-default).invalid~.helper-text[data-error],
-input[type=tel]:not(.browser-default):focus.invalid~.helper-text[data-error],
-input[type=number]:not(.browser-default).valid~.helper-text[data-success],
-input[type=number]:not(.browser-default):focus.valid~.helper-text[data-success],
-input[type=number]:not(.browser-default).invalid~.helper-text[data-error],
-input[type=number]:not(.browser-default):focus.invalid~.helper-text[data-error],
-input[type=search]:not(.browser-default).valid~.helper-text[data-success],
-input[type=search]:not(.browser-default):focus.valid~.helper-text[data-success],
-input[type=search]:not(.browser-default).invalid~.helper-text[data-error],
-input[type=search]:not(.browser-default):focus.invalid~.helper-text[data-error],
+n:not([type]).valid~.helper-text[data-success],
+n:not([type]):focus.valid~.helper-text[data-success],
+n:not([type]).invalid~.helper-text[data-error],
+n:not([type]):focus.invalid~.helper-text[data-error],
+n[type=text]:not(.browser-default).valid~.helper-text[data-success],
+n[type=text]:not(.browser-default):focus.valid~.helper-text[data-success],
+n[type=text]:not(.browser-default).invalid~.helper-text[data-error],
+n[type=text]:not(.browser-default):focus.invalid~.helper-text[data-error],
+n[type=password]:not(.browser-default).valid~.helper-text[data-success],
+n[type=password]:not(.browser-default):focus.valid~.helper-text[data-success],
+n[type=password]:not(.browser-default).invalid~.helper-text[data-error],
+n[type=password]:not(.browser-default):focus.invalid~.helper-text[data-error],
+n[type=email]:not(.browser-default).valid~.helper-text[data-success],
+n[type=email]:not(.browser-default):focus.valid~.helper-text[data-success],
+n[type=email]:not(.browser-default).invalid~.helper-text[data-error],
+n[type=email]:not(.browser-default):focus.invalid~.helper-text[data-error],
+n[type=url]:not(.browser-default).valid~.helper-text[data-success],
+n[type=url]:not(.browser-default):focus.valid~.helper-text[data-success],
+n[type=url]:not(.browser-default).invalid~.helper-text[data-error],
+n[type=url]:not(.browser-default):focus.invalid~.helper-text[data-error],
+n[type=time]:not(.browser-default).valid~.helper-text[data-success],
+n[type=time]:not(.browser-default):focus.valid~.helper-text[data-success],
+n[type=time]:not(.browser-default).invalid~.helper-text[data-error],
+n[type=time]:not(.browser-default):focus.invalid~.helper-text[data-error],
+n[type=date]:not(.browser-default).valid~.helper-text[data-success],
+n[type=date]:not(.browser-default):focus.valid~.helper-text[data-success],
+n[type=date]:not(.browser-default).invalid~.helper-text[data-error],
+n[type=date]:not(.browser-default):focus.invalid~.helper-text[data-error],
+n[type=datetime]:not(.browser-default).valid~.helper-text[data-success],
+n[type=datetime]:not(.browser-default):focus.valid~.helper-text[data-success],
+n[type=datetime]:not(.browser-default).invalid~.helper-text[data-error],
+n[type=datetime]:not(.browser-default):focus.invalid~.helper-text[data-error],
+n[type=datetime-local]:not(.browser-default).valid~.helper-text[data-success],
+n[type=datetime-local]:not(.browser-default):focus.valid~.helper-text[data-success],
+n[type=datetime-local]:not(.browser-default).invalid~.helper-text[data-error],
+n[type=datetime-local]:not(.browser-default):focus.invalid~.helper-text[data-error],
+n[type=tel]:not(.browser-default).valid~.helper-text[data-success],
+n[type=tel]:not(.browser-default):focus.valid~.helper-text[data-success],
+n[type=tel]:not(.browser-default).invalid~.helper-text[data-error],
+n[type=tel]:not(.browser-default):focus.invalid~.helper-text[data-error],
+n[type=number]:not(.browser-default).valid~.helper-text[data-success],
+n[type=number]:not(.browser-default):focus.valid~.helper-text[data-success],
+n[type=number]:not(.browser-default).invalid~.helper-text[data-error],
+n[type=number]:not(.browser-default):focus.invalid~.helper-text[data-error],
+n[type=search]:not(.browser-default).valid~.helper-text[data-success],
+n[type=search]:not(.browser-default):focus.valid~.helper-text[data-success],
+n[type=search]:not(.browser-default).invalid~.helper-text[data-error],
+n[type=search]:not(.browser-default):focus.invalid~.helper-text[data-error],
 textarea.materialize-textarea.valid~.helper-text[data-success],
 textarea.materialize-textarea:focus.valid~.helper-text[data-success],
 textarea.materialize-textarea.invalid~.helper-text[data-error],
@@ -6421,30 +6421,30 @@ textarea.materialize-textarea:focus.invalid~.helper-text[data-error],
     pointer-events: none;
 }
 
-input:not([type]).valid~.helper-text:after,
-input:not([type]):focus.valid~.helper-text:after,
-input[type=text]:not(.browser-default).valid~.helper-text:after,
-input[type=text]:not(.browser-default):focus.valid~.helper-text:after,
-input[type=password]:not(.browser-default).valid~.helper-text:after,
-input[type=password]:not(.browser-default):focus.valid~.helper-text:after,
-input[type=email]:not(.browser-default).valid~.helper-text:after,
-input[type=email]:not(.browser-default):focus.valid~.helper-text:after,
-input[type=url]:not(.browser-default).valid~.helper-text:after,
-input[type=url]:not(.browser-default):focus.valid~.helper-text:after,
-input[type=time]:not(.browser-default).valid~.helper-text:after,
-input[type=time]:not(.browser-default):focus.valid~.helper-text:after,
-input[type=date]:not(.browser-default).valid~.helper-text:after,
-input[type=date]:not(.browser-default):focus.valid~.helper-text:after,
-input[type=datetime]:not(.browser-default).valid~.helper-text:after,
-input[type=datetime]:not(.browser-default):focus.valid~.helper-text:after,
-input[type=datetime-local]:not(.browser-default).valid~.helper-text:after,
-input[type=datetime-local]:not(.browser-default):focus.valid~.helper-text:after,
-input[type=tel]:not(.browser-default).valid~.helper-text:after,
-input[type=tel]:not(.browser-default):focus.valid~.helper-text:after,
-input[type=number]:not(.browser-default).valid~.helper-text:after,
-input[type=number]:not(.browser-default):focus.valid~.helper-text:after,
-input[type=search]:not(.browser-default).valid~.helper-text:after,
-input[type=search]:not(.browser-default):focus.valid~.helper-text:after,
+n:not([type]).valid~.helper-text:after,
+n:not([type]):focus.valid~.helper-text:after,
+n[type=text]:not(.browser-default).valid~.helper-text:after,
+n[type=text]:not(.browser-default):focus.valid~.helper-text:after,
+n[type=password]:not(.browser-default).valid~.helper-text:after,
+n[type=password]:not(.browser-default):focus.valid~.helper-text:after,
+n[type=email]:not(.browser-default).valid~.helper-text:after,
+n[type=email]:not(.browser-default):focus.valid~.helper-text:after,
+n[type=url]:not(.browser-default).valid~.helper-text:after,
+n[type=url]:not(.browser-default):focus.valid~.helper-text:after,
+n[type=time]:not(.browser-default).valid~.helper-text:after,
+n[type=time]:not(.browser-default):focus.valid~.helper-text:after,
+n[type=date]:not(.browser-default).valid~.helper-text:after,
+n[type=date]:not(.browser-default):focus.valid~.helper-text:after,
+n[type=datetime]:not(.browser-default).valid~.helper-text:after,
+n[type=datetime]:not(.browser-default):focus.valid~.helper-text:after,
+n[type=datetime-local]:not(.browser-default).valid~.helper-text:after,
+n[type=datetime-local]:not(.browser-default):focus.valid~.helper-text:after,
+n[type=tel]:not(.browser-default).valid~.helper-text:after,
+n[type=tel]:not(.browser-default):focus.valid~.helper-text:after,
+n[type=number]:not(.browser-default).valid~.helper-text:after,
+n[type=number]:not(.browser-default):focus.valid~.helper-text:after,
+n[type=search]:not(.browser-default).valid~.helper-text:after,
+n[type=search]:not(.browser-default):focus.valid~.helper-text:after,
 textarea.materialize-textarea.valid~.helper-text:after,
 textarea.materialize-textarea:focus.valid~.helper-text:after,
 .select-wrapper.valid~.helper-text:after {
@@ -6452,30 +6452,30 @@ textarea.materialize-textarea:focus.valid~.helper-text:after,
     color: #4CAF50;
 }
 
-input:not([type]).invalid~.helper-text:after,
-input:not([type]):focus.invalid~.helper-text:after,
-input[type=text]:not(.browser-default).invalid~.helper-text:after,
-input[type=text]:not(.browser-default):focus.invalid~.helper-text:after,
-input[type=password]:not(.browser-default).invalid~.helper-text:after,
-input[type=password]:not(.browser-default):focus.invalid~.helper-text:after,
-input[type=email]:not(.browser-default).invalid~.helper-text:after,
-input[type=email]:not(.browser-default):focus.invalid~.helper-text:after,
-input[type=url]:not(.browser-default).invalid~.helper-text:after,
-input[type=url]:not(.browser-default):focus.invalid~.helper-text:after,
-input[type=time]:not(.browser-default).invalid~.helper-text:after,
-input[type=time]:not(.browser-default):focus.invalid~.helper-text:after,
-input[type=date]:not(.browser-default).invalid~.helper-text:after,
-input[type=date]:not(.browser-default):focus.invalid~.helper-text:after,
-input[type=datetime]:not(.browser-default).invalid~.helper-text:after,
-input[type=datetime]:not(.browser-default):focus.invalid~.helper-text:after,
-input[type=datetime-local]:not(.browser-default).invalid~.helper-text:after,
-input[type=datetime-local]:not(.browser-default):focus.invalid~.helper-text:after,
-input[type=tel]:not(.browser-default).invalid~.helper-text:after,
-input[type=tel]:not(.browser-default):focus.invalid~.helper-text:after,
-input[type=number]:not(.browser-default).invalid~.helper-text:after,
-input[type=number]:not(.browser-default):focus.invalid~.helper-text:after,
-input[type=search]:not(.browser-default).invalid~.helper-text:after,
-input[type=search]:not(.browser-default):focus.invalid~.helper-text:after,
+n:not([type]).invalid~.helper-text:after,
+n:not([type]):focus.invalid~.helper-text:after,
+n[type=text]:not(.browser-default).invalid~.helper-text:after,
+n[type=text]:not(.browser-default):focus.invalid~.helper-text:after,
+n[type=password]:not(.browser-default).invalid~.helper-text:after,
+n[type=password]:not(.browser-default):focus.invalid~.helper-text:after,
+n[type=email]:not(.browser-default).invalid~.helper-text:after,
+n[type=email]:not(.browser-default):focus.invalid~.helper-text:after,
+n[type=url]:not(.browser-default).invalid~.helper-text:after,
+n[type=url]:not(.browser-default):focus.invalid~.helper-text:after,
+n[type=time]:not(.browser-default).invalid~.helper-text:after,
+n[type=time]:not(.browser-default):focus.invalid~.helper-text:after,
+n[type=date]:not(.browser-default).invalid~.helper-text:after,
+n[type=date]:not(.browser-default):focus.invalid~.helper-text:after,
+n[type=datetime]:not(.browser-default).invalid~.helper-text:after,
+n[type=datetime]:not(.browser-default):focus.invalid~.helper-text:after,
+n[type=datetime-local]:not(.browser-default).invalid~.helper-text:after,
+n[type=datetime-local]:not(.browser-default):focus.invalid~.helper-text:after,
+n[type=tel]:not(.browser-default).invalid~.helper-text:after,
+n[type=tel]:not(.browser-default):focus.invalid~.helper-text:after,
+n[type=number]:not(.browser-default).invalid~.helper-text:after,
+n[type=number]:not(.browser-default):focus.invalid~.helper-text:after,
+n[type=search]:not(.browser-default).invalid~.helper-text:after,
+n[type=search]:not(.browser-default):focus.invalid~.helper-text:after,
 textarea.materialize-textarea.invalid~.helper-text:after,
 textarea.materialize-textarea:focus.invalid~.helper-text:after,
 .select-wrapper.invalid~.helper-text:after {
@@ -6483,18 +6483,18 @@ textarea.materialize-textarea:focus.invalid~.helper-text:after,
     color: #F44336;
 }
 
-input:not([type])+label:after,
-input[type=text]:not(.browser-default)+label:after,
-input[type=password]:not(.browser-default)+label:after,
-input[type=email]:not(.browser-default)+label:after,
-input[type=url]:not(.browser-default)+label:after,
-input[type=time]:not(.browser-default)+label:after,
-input[type=date]:not(.browser-default)+label:after,
-input[type=datetime]:not(.browser-default)+label:after,
-input[type=datetime-local]:not(.browser-default)+label:after,
-input[type=tel]:not(.browser-default)+label:after,
-input[type=number]:not(.browser-default)+label:after,
-input[type=search]:not(.browser-default)+label:after,
+n:not([type])+label:after,
+n[type=text]:not(.browser-default)+label:after,
+n[type=password]:not(.browser-default)+label:after,
+n[type=email]:not(.browser-default)+label:after,
+n[type=url]:not(.browser-default)+label:after,
+n[type=time]:not(.browser-default)+label:after,
+n[type=date]:not(.browser-default)+label:after,
+n[type=datetime]:not(.browser-default)+label:after,
+n[type=datetime-local]:not(.browser-default)+label:after,
+n[type=tel]:not(.browser-default)+label:after,
+n[type=number]:not(.browser-default)+label:after,
+n[type=search]:not(.browser-default)+label:after,
 textarea.materialize-textarea+label:after,
 .select-wrapper+label:after {
     display: block;
@@ -6507,33 +6507,33 @@ textarea.materialize-textarea+label:after,
     transition: .2s opacity ease-out, .2s color ease-out;
 }
 
-.input-field {
+.n-field {
     position: relative;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.input-field.inline {
+.n-field.inline {
     display: inline-block;
     vertical-align: middle;
     margin-left: 5px;
 }
 
-.input-field.inline input,
-.input-field.inline .select-dropdown {
+.n-field.inline n,
+.n-field.inline .select-dropdown {
     margin-bottom: 1rem;
 }
 
-.input-field.col label {
+.n-field.col label {
     left: 0.75rem;
 }
 
-.input-field.col .prefix~label,
-.input-field.col .prefix~.validate~label {
+.n-field.col .prefix~label,
+.n-field.col .prefix~.validate~label {
     width: calc(100% - 3rem - 1.5rem);
 }
 
-.input-field>label {
+.n-field>label {
     color: #9e9e9e;
     position: absolute;
     top: 0;
@@ -6551,23 +6551,23 @@ textarea.materialize-textarea+label:after,
     transform: translateY(12px);
 }
 
-.input-field>label:not(.label-icon).active {
+.n-field>label:not(.label-icon).active {
     -webkit-transform: translateY(-14px) scale(0.8);
     transform: translateY(-14px) scale(0.8);
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;
 }
 
-.input-field>input[type]:-webkit-autofill:not(.browser-default):not([type="search"])+label,
-.input-field>input[type=date]:not(.browser-default)+label,
-.input-field>input[type=time]:not(.browser-default)+label {
+.n-field>n[type]:-webkit-autofill:not(.browser-default):not([type="search"])+label,
+.n-field>n[type=date]:not(.browser-default)+label,
+.n-field>n[type=time]:not(.browser-default)+label {
     -webkit-transform: translateY(-14px) scale(0.8);
     transform: translateY(-14px) scale(0.8);
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;
 }
 
-.input-field .helper-text {
+.n-field .helper-text {
     position: relative;
     min-height: 18px;
     display: block;
@@ -6575,14 +6575,14 @@ textarea.materialize-textarea+label:after,
     color: rgba(0, 0, 0, 0.54);
 }
 
-.input-field .helper-text::after {
+.n-field .helper-text::after {
     opacity: 1;
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.input-field .prefix {
+.n-field .prefix {
     position: absolute;
     width: 3rem;
     font-size: 2rem;
@@ -6591,34 +6591,34 @@ textarea.materialize-textarea+label:after,
     top: 0.5rem;
 }
 
-.input-field .prefix.active {
+.n-field .prefix.active {
     color: #26a69a;
 }
 
-.input-field .prefix~input,
-.input-field .prefix~textarea,
-.input-field .prefix~label,
-.input-field .prefix~.validate~label,
-.input-field .prefix~.helper-text,
-.input-field .prefix~.autocomplete-content {
+.n-field .prefix~n,
+.n-field .prefix~textarea,
+.n-field .prefix~label,
+.n-field .prefix~.validate~label,
+.n-field .prefix~.helper-text,
+.n-field .prefix~.autocomplete-content {
     margin-left: 3rem;
     width: 92%;
     width: calc(100% - 3rem);
 }
 
-.input-field .prefix~label {
+.n-field .prefix~label {
     margin-left: 3rem;
 }
 
 @media only screen and (max-width: 992px) {
-    .input-field .prefix~input {
+    .n-field .prefix~n {
         width: 86%;
         width: calc(100% - 3rem);
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .input-field .prefix~input {
+    .n-field .prefix~n {
         width: 80%;
         width: calc(100% - 3rem);
     }
@@ -6627,14 +6627,14 @@ textarea.materialize-textarea+label:after,
 
 /* Search Field */
 
-.input-field input[type=search] {
+.n-field n[type=search] {
     display: block;
     line-height: inherit;
     -webkit-transition: .3s background-color;
     transition: .3s background-color;
 }
 
-.nav-wrapper .input-field input[type=search] {
+.nav-wrapper .n-field n[type=search] {
     height: inherit;
     padding-left: 4rem;
     width: calc(100% - 4rem);
@@ -6643,7 +6643,7 @@ textarea.materialize-textarea+label:after,
     box-shadow: none;
 }
 
-.input-field input[type=search]:focus:not(.browser-default) {
+.n-field n[type=search]:focus:not(.browser-default) {
     background-color: #fff;
     border: 0;
     -webkit-box-shadow: none;
@@ -6651,20 +6651,20 @@ textarea.materialize-textarea+label:after,
     color: #444;
 }
 
-.input-field input[type=search]:focus:not(.browser-default)+label i,
-.input-field input[type=search]:focus:not(.browser-default)~.mdi-navigation-close,
-.input-field input[type=search]:focus:not(.browser-default)~.material-icons {
+.n-field n[type=search]:focus:not(.browser-default)+label i,
+.n-field n[type=search]:focus:not(.browser-default)~.mdi-navigation-close,
+.n-field n[type=search]:focus:not(.browser-default)~.material-icons {
     color: #444;
 }
 
-.input-field input[type=search]+.label-icon {
+.n-field n[type=search]+.label-icon {
     -webkit-transform: none;
     transform: none;
     left: 1rem;
 }
 
-.input-field input[type=search]~.mdi-navigation-close,
-.input-field input[type=search]~.material-icons {
+.n-field n[type=search]~.mdi-navigation-close,
+.n-field n[type=search]~.material-icons {
     position: absolute;
     top: 0;
     right: 1rem;
@@ -7090,22 +7090,22 @@ textarea.materialize-textarea {
     cursor: pointer;
 }
 
-.switch label input[type=checkbox] {
+.switch label n[type=checkbox] {
     opacity: 0;
     width: 0;
     height: 0;
 }
 
-.switch label input[type=checkbox]:checked+.lever {
+.switch label n[type=checkbox]:checked+.lever {
     background-color: #84c7c1;
 }
 
-.switch label input[type=checkbox]:checked+.lever:before,
-.switch label input[type=checkbox]:checked+.lever:after {
+.switch label n[type=checkbox]:checked+.lever:before,
+.switch label n[type=checkbox]:checked+.lever:after {
     left: 18px;
 }
 
-.switch label input[type=checkbox]:checked+.lever:after {
+.switch label n[type=checkbox]:checked+.lever:after {
     background-color: #26a69a;
 }
 
@@ -7150,27 +7150,27 @@ textarea.materialize-textarea {
     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
-input[type=checkbox]:checked:not(:disabled)~.lever:active::before,
-input[type=checkbox]:checked:not(:disabled).tabbed:focus~.lever::before {
+n[type=checkbox]:checked:not(:disabled)~.lever:active::before,
+n[type=checkbox]:checked:not(:disabled).tabbed:focus~.lever::before {
     -webkit-transform: scale(2.4);
     transform: scale(2.4);
     background-color: rgba(38, 166, 154, 0.15);
 }
 
-input[type=checkbox]:not(:disabled)~.lever:active:before,
-input[type=checkbox]:not(:disabled).tabbed:focus~.lever::before {
+n[type=checkbox]:not(:disabled)~.lever:active:before,
+n[type=checkbox]:not(:disabled).tabbed:focus~.lever::before {
     -webkit-transform: scale(2.4);
     transform: scale(2.4);
     background-color: rgba(0, 0, 0, 0.08);
 }
 
-.switch input[type=checkbox][disabled]+.lever {
+.switch n[type=checkbox][disabled]+.lever {
     cursor: default;
     background-color: rgba(0, 0, 0, 0.12);
 }
 
-.switch label input[type=checkbox][disabled]+.lever:after,
-.switch label input[type=checkbox][disabled]:checked+.lever:after {
+.switch label n[type=checkbox][disabled]+.lever:after,
+.switch label n[type=checkbox][disabled]:checked+.lever:after {
     background-color: #949494;
 }
 
@@ -7209,7 +7209,7 @@ select {
     pointer-events: none;
 }
 
-.select-wrapper input.select-dropdown {
+.select-wrapper n.select-dropdown {
     position: relative;
     cursor: pointer;
     background-color: transparent;
@@ -7230,7 +7230,7 @@ select {
     z-index: 1;
 }
 
-.select-wrapper input.select-dropdown:focus {
+.select-wrapper n.select-dropdown:focus {
     border-bottom: 1px solid #26a69a;
 }
 
@@ -7262,7 +7262,7 @@ select:disabled {
     fill: rgba(0, 0, 0, 0.42);
 }
 
-.select-wrapper input.select-dropdown:disabled {
+.select-wrapper n.select-dropdown:disabled {
     color: rgba(0, 0, 0, 0.42);
     cursor: default;
     -webkit-user-select: none;
@@ -7328,7 +7328,7 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
 }
 
 
-/* File Input
+/* File n
      ========================================================================== */
 
 .file-field {
@@ -7340,7 +7340,7 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
     padding-left: 10px;
 }
 
-.file-field input.file-path {
+.file-field n.file-path {
     width: 100%;
 }
 
@@ -7356,7 +7356,7 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
     cursor: pointer;
 }
 
-.file-field input[type=file] {
+.file-field n[type=file] {
     position: absolute;
     top: 0;
     right: 0;
@@ -7371,7 +7371,7 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
     filter: alpha(opacity=0);
 }
 
-.file-field input[type=file]::-webkit-file-upload-button {
+.file-field n[type=file]::-webkit-file-upload-button {
     display: none;
 }
 
@@ -7383,12 +7383,12 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
     position: relative;
 }
 
-input[type=range],
-input[type=range]+.thumb {
+n[type=range],
+n[type=range]+.thumb {
     cursor: pointer;
 }
 
-input[type=range] {
+n[type=range] {
     position: relative;
     background-color: transparent;
     border: none;
@@ -7398,11 +7398,11 @@ input[type=range] {
     padding: 0;
 }
 
-input[type=range]:focus {
+n[type=range]:focus {
     outline: none;
 }
 
-input[type=range]+.thumb {
+n[type=range]+.thumb {
     position: absolute;
     top: 10px;
     left: 0;
@@ -7418,7 +7418,7 @@ input[type=range]+.thumb {
     transform: rotate(-45deg);
 }
 
-input[type=range]+.thumb .value {
+n[type=range]+.thumb .value {
     display: block;
     width: 30px;
     text-align: center;
@@ -7428,28 +7428,28 @@ input[type=range]+.thumb .value {
     transform: rotate(45deg);
 }
 
-input[type=range]+.thumb.active {
+n[type=range]+.thumb.active {
     border-radius: 50% 50% 50% 0;
 }
 
-input[type=range]+.thumb.active .value {
+n[type=range]+.thumb.active .value {
     color: #fff;
     margin-left: -1px;
     margin-top: 8px;
     font-size: 10px;
 }
 
-input[type=range] {
+n[type=range] {
     -webkit-appearance: none;
 }
 
-input[type=range]::-webkit-slider-runnable-track {
+n[type=range]::-webkit-slider-runnable-track {
     height: 3px;
     background: #c2c0c2;
     border: none;
 }
 
-input[type=range]::-webkit-slider-thumb {
+n[type=range]::-webkit-slider-thumb {
     border: none;
     height: 14px;
     width: 14px;
@@ -7466,28 +7466,28 @@ input[type=range]::-webkit-slider-thumb {
     margin: -5px 0 0 0;
 }
 
-.keyboard-focused input[type=range]:focus:not(.active)::-webkit-slider-thumb {
+.keyboard-focused n[type=range]:focus:not(.active)::-webkit-slider-thumb {
     -webkit-box-shadow: 0 0 0 10px rgba(38, 166, 154, 0.26);
     box-shadow: 0 0 0 10px rgba(38, 166, 154, 0.26);
 }
 
-input[type=range] {
+n[type=range] {
     /* fix for FF unable to apply focus style bug  */
     border: 1px solid white;
     /*required for proper track sizing in FF*/
 }
 
-input[type=range]::-moz-range-track {
+n[type=range]::-moz-range-track {
     height: 3px;
     background: #c2c0c2;
     border: none;
 }
 
-input[type=range]::-moz-focus-inner {
+n[type=range]::-moz-focus-inner {
     border: 0;
 }
 
-input[type=range]::-moz-range-thumb {
+n[type=range]::-moz-range-thumb {
     border: none;
     height: 14px;
     width: 14px;
@@ -7500,16 +7500,16 @@ input[type=range]::-moz-range-thumb {
     margin-top: -5px;
 }
 
-input[type=range]:-moz-focusring {
+n[type=range]:-moz-focusring {
     outline: 1px solid #fff;
     outline-offset: -1px;
 }
 
-.keyboard-focused input[type=range]:focus:not(.active)::-moz-range-thumb {
+.keyboard-focused n[type=range]:focus:not(.active)::-moz-range-thumb {
     box-shadow: 0 0 0 10px rgba(38, 166, 154, 0.26);
 }
 
-input[type=range]::-ms-track {
+n[type=range]::-ms-track {
     height: 3px;
     background: transparent;
     border-color: transparent;
@@ -7518,15 +7518,15 @@ input[type=range]::-ms-track {
     color: transparent;
 }
 
-input[type=range]::-ms-fill-lower {
+n[type=range]::-ms-fill-lower {
     background: #777;
 }
 
-input[type=range]::-ms-fill-upper {
+n[type=range]::-ms-fill-upper {
     background: #ddd;
 }
 
-input[type=range]::-ms-thumb {
+n[type=range]::-ms-thumb {
     border: none;
     height: 14px;
     width: 14px;
@@ -7538,7 +7538,7 @@ input[type=range]::-ms-thumb {
     transition: box-shadow .3s, -webkit-box-shadow .3s;
 }
 
-.keyboard-focused input[type=range]:focus:not(.active)::-ms-thumb {
+.keyboard-focused n[type=range]:focus:not(.active)::-ms-thumb {
     box-shadow: 0 0 0 10px rgba(38, 166, 154, 0.26);
 }
 
@@ -8752,13 +8752,13 @@ input[type=range]::-ms-thumb {
     display: flex;
 }
 
-.datepicker-controls .select-wrapper input {
+.datepicker-controls .select-wrapper n {
     border-bottom: none;
     text-align: center;
     margin: 0;
 }
 
-.datepicker-controls .select-wrapper input:focus {
+.datepicker-controls .select-wrapper n:focus {
     border-bottom: none;
 }
 
@@ -8766,11 +8766,11 @@ input[type=range]::-ms-thumb {
     display: none;
 }
 
-.datepicker-controls .select-year input {
+.datepicker-controls .select-year n {
     width: 50px;
 }
 
-.datepicker-controls .select-month input {
+.datepicker-controls .select-month n {
     width: 70px;
 }
 
