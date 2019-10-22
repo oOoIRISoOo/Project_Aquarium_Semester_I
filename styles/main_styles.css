@@ -738,11 +738,8 @@ section {
 @media only screen and (max-width: 1600px) {
     @media only screen and (max-height: 1200 px) {
         .home {
-            height: 90vh;
-        }
-        .circle_clock .clock {
-            top: -50px;
-        }
+            height: 100vh;
+        
     }
     @media only screen and (max-height: 768px) {
         .home {
