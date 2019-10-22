@@ -739,7 +739,7 @@ section {
     @media only screen and (max-height: 1200 px) {
         .home {
             height: 100vh;
-        
+        }
     }
     @media only screen and (max-height: 768px) {
         .home {
