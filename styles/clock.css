@@ -1,0 +1,409 @@
+ /* .circle_clock {
+     height: 20%;
+     position: fixed;
+     top: 0;
+     z-index: 102;
+     -webkit-transition: all 400ms ease;
+     -moz-transition: all 400ms ease;
+     -ms-transition: all 400ms ease;
+     -o-transition: all 400ms ease;
+     transition: all 400ms ease;
+ }*/
+ 
+ .circle_clock {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-family: sans-serif;
+     color: white;
+ }
+ 
+ .circle_clock p {
+     color: #f4eed7;
+     font-size: 0.8em;
+     opacity: 0.75;
+ }
+ 
+ .circle_clock .clock {
+     height: 200px;
+     width: 200px;
+     border-radius: 100px;
+     display: flex;
+     justify-content: center;
+     position: relative;
+ }
+ 
+ .circle_clock .clock__second,
+ .circle_clock .clock__minute,
+ .circle_clock .clock__hour,
+ .circle_clock .clock__indicator {
+     position: absolute;
+     left: calc(50% - 1px);
+     width: 2px;
+     background: #f4eed7;
+     -webkit-transform-origin: bottom center;
+     transform-origin: bottom center;
+     z-index: 2;
+     border-radius: 1px;
+ }
+ 
+ .circle_clock .clock__second {
+     height: 90px;
+     margin-top: 10px;
+     background: #f1d4ae;
+     -webkit-animation: time 60s infinite steps(60);
+     animation: time 60s infinite steps(60);
+     z-index: 3;
+ }
+ 
+ .circle_clock .clock__minute {
+     height: 80px;
+     margin-top: 20px;
+     opacity: 0.75;
+     -webkit-animation: time 3600s linear infinite;
+     animation: time 3600s linear infinite;
+ }
+ 
+ .circle_clock .clock__hour {
+     height: 60px;
+     margin-top: 40px;
+     -webkit-animation: time 43200s linear infinite;
+     animation: time 43200s linear infinite;
+ }
+ 
+ .circle_clock .clock__indicator {
+     height: 98px;
+     border-top: 2px solid #f1d4ae;
+     background: none;
+ }
+ 
+ .circle_clock .clock__indicator:nth-of-type(5n) {
+     opacity: 1;
+     height: 93px;
+     border-top: 7px solid #f4eed7;
+ }
+ 
+ .circle_clock .clock__axis {
+     background: #4b9aaa;
+     width: 5px;
+     height: 5px;
+     border-radius: 3px;
+     position: absolute;
+     z-index: 4;
+     top: 97px;
+ }
+ 
+ .circle_clock section:nth-of-type(1) {
+     -webkit-transform: rotateZ(calc(6deg * 1));
+     transform: rotateZ(calc(6deg * 1));
+ }
+ 
+ .circle_clock section:nth-of-type(2) {
+     -webkit-transform: rotateZ(calc(6deg * 2));
+     transform: rotateZ(calc(6deg * 2));
+ }
+ 
+ .circle_clock section:nth-of-type(3) {
+     -webkit-transform: rotateZ(calc(6deg * 3));
+     transform: rotateZ(calc(6deg * 3));
+ }
+ 
+ .circle_clock section:nth-of-type(4) {
+     -webkit-transform: rotateZ(calc(6deg * 4));
+     transform: rotateZ(calc(6deg * 4));
+ }
+ 
+ .circle_clock section:nth-of-type(5) {
+     -webkit-transform: rotateZ(calc(6deg * 5));
+     transform: rotateZ(calc(6deg * 5));
+ }
+ 
+ .circle_clock section:nth-of-type(6) {
+     -webkit-transform: rotateZ(calc(6deg * 6));
+     transform: rotateZ(calc(6deg * 6));
+ }
+ 
+ .circle_clock section:nth-of-type(7) {
+     -webkit-transform: rotateZ(calc(6deg * 7));
+     transform: rotateZ(calc(6deg * 7));
+ }
+ 
+ .circle_clock section:nth-of-type(8) {
+     -webkit-transform: rotateZ(calc(6deg * 8));
+     transform: rotateZ(calc(6deg * 8));
+ }
+ 
+ .circle_clock section:nth-of-type(9) {
+     -webkit-transform: rotateZ(calc(6deg * 9));
+     transform: rotateZ(calc(6deg * 9));
+ }
+ 
+ .circle_clock section:nth-of-type(10) {
+     -webkit-transform: rotateZ(calc(6deg * 10));
+     transform: rotateZ(calc(6deg * 10));
+ }
+ 
+ .circle_clock section:nth-of-type(11) {
+     -webkit-transform: rotateZ(calc(6deg * 11));
+     transform: rotateZ(calc(6deg * 11));
+ }
+ 
+ .circle_clock section:nth-of-type(12) {
+     -webkit-transform: rotateZ(calc(6deg * 12));
+     transform: rotateZ(calc(6deg * 12));
+ }
+ 
+ .circle_clock section:nth-of-type(13) {
+     -webkit-transform: rotateZ(calc(6deg * 13));
+     transform: rotateZ(calc(6deg * 13));
+ }
+ 
+ .circle_clock section:nth-of-type(14) {
+     -webkit-transform: rotateZ(calc(6deg * 14));
+     transform: rotateZ(calc(6deg * 14));
+ }
+ 
+ .circle_clock section:nth-of-type(15) {
+     -webkit-transform: rotateZ(calc(6deg * 15));
+     transform: rotateZ(calc(6deg * 15));
+ }
+ 
+ .circle_clock section:nth-of-type(16) {
+     -webkit-transform: rotateZ(calc(6deg * 16));
+     transform: rotateZ(calc(6deg * 16));
+ }
+ 
+ .circle_clock section:nth-of-type(17) {
+     -webkit-transform: rotateZ(calc(6deg * 17));
+     transform: rotateZ(calc(6deg * 17));
+ }
+ 
+ .circle_clock section:nth-of-type(18) {
+     -webkit-transform: rotateZ(calc(6deg * 18));
+     transform: rotateZ(calc(6deg * 18));
+ }
+ 
+ .circle_clock section:nth-of-type(19) {
+     -webkit-transform: rotateZ(calc(6deg * 19));
+     transform: rotateZ(calc(6deg * 19));
+ }
+ 
+ .circle_clock section:nth-of-type(20) {
+     -webkit-transform: rotateZ(calc(6deg * 20));
+     transform: rotateZ(calc(6deg * 20));
+ }
+ 
+ .circle_clock section:nth-of-type(21) {
+     -webkit-transform: rotateZ(calc(6deg * 21));
+     transform: rotateZ(calc(6deg * 21));
+ }
+ 
+ .circle_clock section:nth-of-type(22) {
+     -webkit-transform: rotateZ(calc(6deg * 22));
+     transform: rotateZ(calc(6deg * 22));
+ }
+ 
+ .circle_clock section:nth-of-type(23) {
+     -webkit-transform: rotateZ(calc(6deg * 23));
+     transform: rotateZ(calc(6deg * 23));
+ }
+ 
+ .circle_clock section:nth-of-type(24) {
+     -webkit-transform: rotateZ(calc(6deg * 24));
+     transform: rotateZ(calc(6deg * 24));
+ }
+ 
+ .circle_clock section:nth-of-type(25) {
+     -webkit-transform: rotateZ(calc(6deg * 25));
+     transform: rotateZ(calc(6deg * 25));
+ }
+ 
+ .circle_clock section:nth-of-type(26) {
+     -webkit-transform: rotateZ(calc(6deg * 26));
+     transform: rotateZ(calc(6deg * 26));
+ }
+ 
+ .circle_clock section:nth-of-type(27) {
+     -webkit-transform: rotateZ(calc(6deg * 27));
+     transform: rotateZ(calc(6deg * 27));
+ }
+ 
+ .circle_clock section:nth-of-type(28) {
+     -webkit-transform: rotateZ(calc(6deg * 28));
+     transform: rotateZ(calc(6deg * 28));
+ }
+ 
+ .circle_clock section:nth-of-type(29) {
+     -webkit-transform: rotateZ(calc(6deg * 29));
+     transform: rotateZ(calc(6deg * 29));
+ }
+ 
+ .circle_clock section:nth-of-type(30) {
+     -webkit-transform: rotateZ(calc(6deg * 30));
+     transform: rotateZ(calc(6deg * 30));
+ }
+ 
+ .circle_clock section:nth-of-type(31) {
+     -webkit-transform: rotateZ(calc(6deg * 31));
+     transform: rotateZ(calc(6deg * 31));
+ }
+ 
+ .circle_clock section:nth-of-type(32) {
+     -webkit-transform: rotateZ(calc(6deg * 32));
+     transform: rotateZ(calc(6deg * 32));
+ }
+ 
+ .circle_clock section:nth-of-type(33) {
+     -webkit-transform: rotateZ(calc(6deg * 33));
+     transform: rotateZ(calc(6deg * 33));
+ }
+ 
+ .circle_clock section:nth-of-type(34) {
+     -webkit-transform: rotateZ(calc(6deg * 34));
+     transform: rotateZ(calc(6deg * 34));
+ }
+ 
+ .circle_clock section:nth-of-type(35) {
+     -webkit-transform: rotateZ(calc(6deg * 35));
+     transform: rotateZ(calc(6deg * 35));
+ }
+ 
+ .circle_clock section:nth-of-type(36) {
+     -webkit-transform: rotateZ(calc(6deg * 36));
+     transform: rotateZ(calc(6deg * 36));
+ }
+ 
+ .circle_clock section:nth-of-type(37) {
+     -webkit-transform: rotateZ(calc(6deg * 37));
+     transform: rotateZ(calc(6deg * 37));
+ }
+ 
+ .circle_clock section:nth-of-type(38) {
+     -webkit-transform: rotateZ(calc(6deg * 38));
+     transform: rotateZ(calc(6deg * 38));
+ }
+ 
+ .circle_clock section:nth-of-type(39) {
+     -webkit-transform: rotateZ(calc(6deg * 39));
+     transform: rotateZ(calc(6deg * 39));
+ }
+ 
+ .circle_clock section:nth-of-type(40) {
+     -webkit-transform: rotateZ(calc(6deg * 40));
+     transform: rotateZ(calc(6deg * 40));
+ }
+ 
+ .circle_clock section:nth-of-type(41) {
+     -webkit-transform: rotateZ(calc(6deg * 41));
+     transform: rotateZ(calc(6deg * 41));
+ }
+ 
+ .circle_clock section:nth-of-type(42) {
+     -webkit-transform: rotateZ(calc(6deg * 42));
+     transform: rotateZ(calc(6deg * 42));
+ }
+ 
+ .circle_clock section:nth-of-type(43) {
+     -webkit-transform: rotateZ(calc(6deg * 43));
+     transform: rotateZ(calc(6deg * 43));
+ }
+ 
+ .circle_clock section:nth-of-type(44) {
+     -webkit-transform: rotateZ(calc(6deg * 44));
+     transform: rotateZ(calc(6deg * 44));
+ }
+ 
+ .circle_clock section:nth-of-type(45) {
+     -webkit-transform: rotateZ(calc(6deg * 45));
+     transform: rotateZ(calc(6deg * 45));
+ }
+ 
+ .circle_clock section:nth-of-type(46) {
+     -webkit-transform: rotateZ(calc(6deg * 46));
+     transform: rotateZ(calc(6deg * 46));
+ }
+ 
+ .circle_clock section:nth-of-type(47) {
+     -webkit-transform: rotateZ(calc(6deg * 47));
+     transform: rotateZ(calc(6deg * 47));
+ }
+ 
+ .circle_clock section:nth-of-type(48) {
+     -webkit-transform: rotateZ(calc(6deg * 48));
+     transform: rotateZ(calc(6deg * 48));
+ }
+ 
+ .circle_clock section:nth-of-type(49) {
+     -webkit-transform: rotateZ(calc(6deg * 49));
+     transform: rotateZ(calc(6deg * 49));
+ }
+ 
+ .circle_clock section:nth-of-type(50) {
+     -webkit-transform: rotateZ(calc(6deg * 50));
+     transform: rotateZ(calc(6deg * 50));
+ }
+ 
+ .circle_clock section:nth-of-type(51) {
+     -webkit-transform: rotateZ(calc(6deg * 51));
+     transform: rotateZ(calc(6deg * 51));
+ }
+ 
+ .circle_clock section:nth-of-type(52) {
+     -webkit-transform: rotateZ(calc(6deg * 52));
+     transform: rotateZ(calc(6deg * 52));
+ }
+ 
+ .circle_clock section:nth-of-type(53) {
+     -webkit-transform: rotateZ(calc(6deg * 53));
+     transform: rotateZ(calc(6deg * 53));
+ }
+ 
+ .circle_clock section:nth-of-type(54) {
+     -webkit-transform: rotateZ(calc(6deg * 54));
+     transform: rotateZ(calc(6deg * 54));
+ }
+ 
+ .circle_clock section:nth-of-type(55) {
+     -webkit-transform: rotateZ(calc(6deg * 55));
+     transform: rotateZ(calc(6deg * 55));
+ }
+ 
+ .circle_clock section:nth-of-type(56) {
+     -webkit-transform: rotateZ(calc(6deg * 56));
+     transform: rotateZ(calc(6deg * 56));
+ }
+ 
+ .circle_clock section:nth-of-type(57) {
+     -webkit-transform: rotateZ(calc(6deg * 57));
+     transform: rotateZ(calc(6deg * 57));
+ }
+ 
+ .circle_clock section:nth-of-type(58) {
+     -webkit-transform: rotateZ(calc(6deg * 58));
+     transform: rotateZ(calc(6deg * 58));
+ }
+ 
+ .circle_clock section:nth-of-type(59) {
+     -webkit-transform: rotateZ(calc(6deg * 59));
+     transform: rotateZ(calc(6deg * 59));
+ }
+ 
+ .circle_clock section:nth-of-type(60) {
+     -webkit-transform: rotateZ(calc(6deg * 60));
+     transform: rotateZ(calc(6deg * 60));
+ }
+ 
+ @-webkit-keyframes time {
+     to {
+         -webkit-transform: rotateZ(360deg);
+         transform: rotateZ(360deg);
+     }
+ }
+ 
+ @keyframes time {
+     to {
+         -webkit-transform: rotateZ(360deg);
+         transform: rotateZ(360deg);
+     }
+ }
