@@ -17,4 +17,4 @@ Student1208490
 VO HOANG TRUNG
 
 
-Open file User Guide_new.pdf in  folder Project Documentaries for reading the installation guide of  ours project
+Open file User Guide_new.pdf in  folder Project Documentaries for reading the installation guide of  our project
