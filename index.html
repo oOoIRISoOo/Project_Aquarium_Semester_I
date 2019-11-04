@@ -60,13 +60,13 @@
                 <div class="header_right d-flex flex-row align-items-center justify-content-start">
 
                     <!-- Search Activation Button -->
-                    <!-- <div class="search_button">
+                    <div class="search_button">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 512 512" enable-background="new 0 0 512 512" width="512px" height="512px">
 						<g>
 							<path d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5   S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9   C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z" fill="#FFFFFF"></path>
 						</g>
 					</svg>
-                    </div> -->
+                    </div>
 
                     <!-- Header Link -->
                     <div class="header_link"><a href="#">Book Your Tickets Now</a></div>
@@ -80,12 +80,20 @@
                 <div class="search_panel">
                     <div class="search_panel_content d-flex flex-row align-items-center justify-content-start">
                         <img src="images/search.png" alt="">
-                        <form action="#" class="search_form">
+                        <form method="get" action="http://www.google.com/cse" class="search_form" target="_blank">
+                            <input type="hidden" name="cx" value="017151548175223042187:pqaaft2wjp2">
                             <input type="text" class="search_input" placeholder="Type your search here" required="required">
                         </form>
                         <div class="search_close ml-auto d-flex flex-column align-items-center justify-content-center">
                             <div></div>
                         </div>
+
+                        <!-- <form method="get" action="http://www.google.com/cse" target="_blank">
+                                <input type="hidden" name="cx" value="017151548175223042187:pqaaft2wjp2">
+                                <input type="hidden" name="ie" value="UTF-8">
+                                <input type="text" name="q" value="">
+                                <input type="submit" value="Search">
+                            </form> -->
                     </div>
                 </div>
             </div>
