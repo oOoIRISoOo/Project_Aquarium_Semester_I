@@ -1,3 +1,24 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/******************************
+
+[Table of Contents]
+
+1. Library
+2. Offer
+
+
+
+******************************/
+
+
+/*********************************
+1. Offering
+*********************************/
+
 .exhibit {
     height: 50px;
     width: 100%;
@@ -46,6 +67,98 @@
     margin-bottom: 10px;
 }
 
+.type1 div {
+    color: rgba(168, 168, 168, 0.596);
+    margin-top: 20px;
+}
+
 .type2 {
     background-color: whitesmoke;
+}
+
+.type2 div {
+    color: rgba(168, 168, 168, 0.527);
+    margin-top: 20px;
+}
+
+.type2 h1 {
+    color: rgb(66, 65, 65);
+}
+
+
+/*********************************
+2. Offering
+*********************************/
+
+.offering {
+    background: #211c32;
+    padding-top: 104px;
+    padding-bottom: 50px;
+}
+
+.offering .section_title>div {
+    color: rgba(255, 255, 255, 0.08);
+}
+
+.offering .section_title h1 {
+    color: #ffffff;
+    margin-top: -30px;
+}
+
+.offering_row {
+    margin-top: 102px;
+}
+
+.offer {
+    margin-bottom: 60px;
+}
+
+.offer_title {
+    margin-top: 48px;
+}
+
+.offer_title h3 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.offer_text {
+    margin-top: 25px;
+}
+
+.offer_text p {
+    color: #bfc8d8;
+}
+
+.offer_button {
+    margin-top: 31px;
+}
+
+.offer_button a {
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff9000;
+    text-transform: uppercase;
+    letter-spacing: 0.075em;
+}
+
+.offer_button a::after {
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #ff9000;
+    content: '';
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+
+.offer_button a:hover::after {
+    width: 100%;
 }
