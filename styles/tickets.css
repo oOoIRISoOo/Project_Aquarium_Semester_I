@@ -1056,9 +1056,7 @@ section {
     margin-left: 5px;
 }
 
-.tickets_button {
-    margin-top: 41px;
-}
+.tickets_button {}
 
 .card-special-panel {
     position: absolute;

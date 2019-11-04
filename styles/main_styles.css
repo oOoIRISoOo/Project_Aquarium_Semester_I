@@ -1535,9 +1535,7 @@ section {
     margin-left: 5px;
 }
 
-.tickets_button {
-    margin-top: 41px;
-}
+.tickets_button {}
 
 .tickets_left_content {
     background: #171126;

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Playfair+Display:400,400i,700,700i');
+.team {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgb(199, 204, 204);
+    padding-top: 128px;
+    padding-bottom: 98px;
+}
+
+.team .member {
+    margin-top: 100px;
+}
+
+.team .card {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    background-color: white;
+    height: 450px;
+    width: 310px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 10px rgba(233, 144, 0.7);
+}
+
+.team .info {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.team .name {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    color: #f79f08;
+    position: absolute;
+    top: 100px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    top: 100px;
+}
+
+.team .prof {
+    font-size: 25px;
+    position: absolute;
+    top: 160px;
+    font-family: sans-serif;
+    color: #0077ff;
+    background-color: yellow;
+}
+
+.team .divider {
+    background-color: #949594;
+    height: 1.5px;
+    width: 50px;
+    position: absolute;
+    top: 190px;
+}
+
+.team .bio {
+    position: absolute;
+    top: 220px;
+    color: #949594;
+    text-align: center;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 28px;
+}
+
+.team button {
+    position: absolute;
+    bottom: 30px;
+    background-color: #f79f08;
+    border: none;
+    font-size: 20px;
+    padding: 13px 25px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.team .photo {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1%;
+}
+
+.team #avt_01 {
+    background-image: url(../images/avt_1.jpg);
+}
+
+.team #avt_02 {
+    background-image: url(../images/avt_2.jpg);
+}
+
+.team #avt_03 {
+    background-image: url(../images/avt_3.jpg);
+}
+
+.team .card:hover .photo {
+    transform: scale(0.5, 0.35) translateY(-650px);
+    background: size 100% 150%;
+    background-position: 0 -25px;
+    border-radius: 50%;
+}
+
+.team p {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,83 @@
+/* PORTFOLIO */
+
+#portfolio {
+    text-align: center;
+}
+
+.projects-holder .mix {
+    display: none;
+}
+
+.filter-categories {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+.filter-categories ul li {
+    margin: 0px 10px 15px 10px;
+    display: inline-block;
+}
+
+.filter-categories ul li span {
+    cursor: pointer;
+    color: #5a5a5a;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.filter-categories ul li.active span {
+    color: #a2cf8d;
+}
+
+.project-item {
+    margin-top: 30px;
+}
+
+.project-item .thumb {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+.project-item .thumb img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.project-item .hover-effect {
+    position: absolute;
+    background-color: rgba(162, 207, 141, 0.95);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.project-item .hover-effect i {
+    text-align: center;
+    margin-top: 35%;
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    background-color: #fff;
+    line-height: 46px;
+    color: #a2cf8d;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.project-item .hover-effect i:hover {
+    background-color: #5c9d7d;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.project-item:hover .hover-effect {
+    opacity: 1;
+    visibility: visible;
+}
